@@ -42,3 +42,7 @@ HEADERS += \
 
 FORMS += \
         msg_netblocker_forschool.ui
+
+
+LIBS += -lpcap
+LIBS += -ltins
