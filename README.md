@@ -12,7 +12,7 @@ If the mac address is unauthorized mac, It will send Block packet.<br>
 This program will Done in january 1.<br>
 comming soon!<br>
 
-<h1>작동원리</h1>
+<h1>How it works</h1>
 Load whitelist into whitelist map<br>
 Send arp request all IPs and recive arp response.<br>
 Extract IP and MAC address from arp response packet. <br>
