@@ -29,7 +29,7 @@ if the blacklist devices ricive the  arp resopnse packet, they can't use interne
 * this program license
 <pre>
 
----------------------------------------------------------------
+
 
 
 Copyright (c) 2017-2018, Jaewan Jeong
@@ -58,7 +58,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </pre>
-----------------------------------------
+
 * libtins license
 <pre>
 Copyright (c) 2012-2017, Matias Fontanini
