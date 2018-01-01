@@ -22,6 +22,4 @@ and send arp response to blacklist devices change gateway macaddress.<br>
 if the blacklist devices ricive the  arp resopnse packet, they can't use internet and other works in your network.<br>
 
 <h1>how to write whitelist?</h1>
-'''
-"<\yourIP>"@"<\yourMAC>"
-'''
+<pre>yourIP@yourMAC</pre>
