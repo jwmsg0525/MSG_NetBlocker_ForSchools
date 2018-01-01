@@ -1,6 +1,11 @@
+#include <pcap.h>
+#include <tins/tins.h>
+#include <stdfix.h>
 #include "msg_netblocker_forschool.h"
 #include "ui_msg_netblocker_forschool.h"
 
+using namespace Tins;
+using namespace std;
 MSG_NetBlocker_ForSchool::MSG_NetBlocker_ForSchool(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MSG_NetBlocker_ForSchool)
@@ -29,6 +34,11 @@ void MSG_NetBlocker_ForSchool::on_Start_clicked()
     ui->Logging->setEnabled(false);
     ui->Reset->setEnabled(false);
     ui->StatusNow->setText("Starting...");
+    sleep(2);
+    NetworkInterface interface;
+    Sniffer sniffer;
+    IPv4Address myaddress;
+    EthernetII::address_type myMAC;
 
 
 }

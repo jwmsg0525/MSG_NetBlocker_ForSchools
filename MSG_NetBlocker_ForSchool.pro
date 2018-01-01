@@ -26,19 +26,20 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         msg_netblocker_forschool.cpp \
-    sendping.cpp \
-    pingmatch.cpp \
     logging.cpp \
     whitelisting.cpp \
-    blocking.cpp
+    blocking.cpp \
+    sarp.cpp \
+    rarp.cpp
 
 HEADERS += \
         msg_netblocker_forschool.h \
-    sendping.h \
-    pingmatch.h \
     logging.h \
     whitelisting.h \
-    blocking.h
+    blocking.h \
+    sarp.h \
+    rarp.h \
+    common.h
 
 FORMS += \
         msg_netblocker_forschool.ui
