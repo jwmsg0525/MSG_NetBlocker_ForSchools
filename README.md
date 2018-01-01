@@ -23,5 +23,5 @@ if the blacklist devices ricive the  arp resopnse packet, they can't use interne
 
 <h1>how to write whitelist?</h1>
 '''
-\<yourIP>@\<yourMAC\>
+"<\yourIP>"@"<\yourMAC>"
 '''
